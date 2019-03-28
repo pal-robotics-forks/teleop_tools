@@ -2,8 +2,8 @@
 Changelog for package joy_teleop
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.3.1 (2019-03-28)
+------------------
 * Merge branch 'incrementer' into 'kinetic-devel'
   Fix head drift
   See merge request ros-overlays/teleop_tools!1
