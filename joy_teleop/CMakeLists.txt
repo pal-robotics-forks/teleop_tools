@@ -17,6 +17,7 @@ include_directories(include)
 
 add_executable(incrementer_server src/incrementer_server.cpp)
 target_link_libraries(incrementer_server ${catkin_LIBRARIES})
+add_dependencies(incrementer_server ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 install(PROGRAMS scripts/joy_teleop.py 
         DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
