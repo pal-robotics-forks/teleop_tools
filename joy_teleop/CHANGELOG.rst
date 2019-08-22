@@ -2,6 +2,11 @@
 Changelog for package joy_teleop
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add missing dependency
+* Contributors: Victor Lopez
+
 0.3.1 (2019-03-28)
 ------------------
 * Merge branch 'incrementer' into 'kinetic-devel'
