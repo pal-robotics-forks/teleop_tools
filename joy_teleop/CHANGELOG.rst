@@ -2,8 +2,8 @@
 Changelog for package joy_teleop
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.3.3 (2022-04-29)
+------------------
 * Merge branch 'gallium-fix' into 'erbium-devel'
   Gallium fix
   See merge request ros-overlays/teleop_tools!2
