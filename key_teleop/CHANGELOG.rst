@@ -2,6 +2,14 @@
 Changelog for package key_teleop
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'gallium-fix' into 'erbium-devel'
+  Gallium fix
+  See merge request ros-overlays/teleop_tools!2
+* Gallium fix
+* Contributors: Jordan Palacios, davidterkuile
+
 0.3.2 (2019-08-22)
 ------------------
 
