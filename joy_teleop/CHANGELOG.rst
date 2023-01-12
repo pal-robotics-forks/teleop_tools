@@ -2,6 +2,15 @@
 Changelog for package joy_teleop
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'head_fix' into 'gallium-devel'
+  Head drift fix at limits
+  See merge request ros-overlays/teleop_tools!4
+* Add missing dependency
+* Fix head drift
+* Contributors: Adria Roig, Jordan Palacios, Victor Lopez
+
 0.4.1 (2021-05-23)
 ------------------
 * Fix missing exec_depend rosservice
