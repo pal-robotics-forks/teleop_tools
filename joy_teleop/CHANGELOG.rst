@@ -2,8 +2,8 @@
 Changelog for package joy_teleop
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1000.4.1 (2023-01-12)
+---------------------
 * Merge branch 'head_fix' into 'gallium-devel'
   Head drift fix at limits
   See merge request ros-overlays/teleop_tools!4
