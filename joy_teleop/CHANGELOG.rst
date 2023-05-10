@@ -2,8 +2,8 @@
 Changelog for package joy_teleop
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.4.1 (2023-05-10)
+------------------
 * Replace bitwise OR by bitwise AND to enable multi-button and multi-axis commands
 * add test for multi button commands
 * Contributors: Noel Jimenez
