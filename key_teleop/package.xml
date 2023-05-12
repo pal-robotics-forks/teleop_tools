@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="3">
   <name>key_teleop</name>
-  <version>1000.4.1</version>
+  <version>1000.4.2</version>
   <description>A text-based interface to send a robot movement commands</description>
 
   <maintainer email="bence.magyar.robotics@gmail.com">Bence Magyar</maintainer>

@@ -2,8 +2,8 @@
 Changelog for package joy_teleop
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1000.4.2 (2023-05-12)
+---------------------
 * Merge branch 'joystick-multi-combinations-fix' into 'pal-overlay-kinetic-devel'
   added allow_multiple_commands parameter to have some control over the joystick commands
   See merge request ros-overlays/teleop_tools!5
