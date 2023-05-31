@@ -2,6 +2,11 @@
 Changelog for package joy_teleop
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* replace deprecated dash by underscore
+* Contributors: Noel Jimenez
+
 1.4.1 (2023-05-10)
 ------------------
 * Replace bitwise OR by bitwise AND to enable multi-button and multi-axis commands
