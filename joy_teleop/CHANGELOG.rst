@@ -2,8 +2,8 @@
 Changelog for package joy_teleop
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.4.3 (2023-06-14)
+------------------
 * fix deprecated topic
 * Contributors: Noel Jimenez
 
