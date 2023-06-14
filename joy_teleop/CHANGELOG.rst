@@ -2,6 +2,11 @@
 Changelog for package joy_teleop
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* fix deprecated topic
+* Contributors: Noel Jimenez
+
 1.4.2 (2023-05-31)
 ------------------
 * replace deprecated dash by underscore

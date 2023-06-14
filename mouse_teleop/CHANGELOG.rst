@@ -2,6 +2,9 @@
 Changelog for package mouse_teleop
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 1.4.2 (2023-05-31)
 ------------------
 * replace deprecated dash by underscore
