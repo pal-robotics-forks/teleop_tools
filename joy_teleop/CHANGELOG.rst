@@ -2,8 +2,8 @@
 Changelog for package joy_teleop
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.4.4 (2023-07-05)
+------------------
 * Update message field to get positions
 * Contributors: Noel Jimenez
 
