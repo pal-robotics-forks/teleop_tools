@@ -85,12 +85,14 @@ class JoyTeleopCommand:
         self.axes: typing.List[str] = []
         if axes_name in config:
             self.axes = config[axes_name]
-        self.axes_negative: str = ''
+        self.axes_negative: typing.List[str] = []
         if axes_name_negative in config:
             self.axes_negative = config[axes_name_negative]
 
-        if len(self.buttons) == 0 and len(self.axes) == 0:
-            raise JoyTeleopException("No buttons or axes configured for command '{}'".format(name))
+        if len(self.buttons) == 0 and len(self.axes) == 0 and len(self.axes_negative) == 0:
+            raise JoyTeleopException(
+                "No buttons, axes or negative_axes configured for command '{}'".format(name)
+            )
 
         # Used to short-circuit the run command if there aren't enough buttons in the message.
         self.min_button = 0
