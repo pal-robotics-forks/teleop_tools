@@ -91,7 +91,8 @@ class JoyTeleopCommand:
 
         if len(self.buttons) == 0 and len(self.axes) == 0 and len(self.axes_negative) == 0:
             raise JoyTeleopException(
-                "No buttons, axes or negative_axes configured for command '{}'".format(name)
+                "No buttons, axes or negative_axes configured for command '{}'"
+                .format(name)
             )
 
         # Used to short-circuit the run command if there aren't enough buttons in the message.
