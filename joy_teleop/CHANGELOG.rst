@@ -2,6 +2,17 @@
 Changelog for package joy_teleop
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'tpe/add_negative_axis' into 'master'
+  Add possibility of checking the negative value of the axis
+  See merge request ros-overlays/teleop_tools!7
+* Add more example of usage of axes and negative axes for action, services and topic
+* Fix line lenght
+* Add example usage + fix code
+* Add possibility of checking the negative value of the axis
+* Contributors: thomas.peyrucain, thomaspeyrucain
+
 1.7.0 (2024-11-06)
 ------------------
 * Fix excessive cpu consumption (`#92 <https://github.com/ros-teleop/teleop_tools/issues/92>`_)
