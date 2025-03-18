@@ -10,7 +10,7 @@ share_path = 'share/' + package_name
 
 setup(
     name=package_name,
-    version='1.6.0',
+    version='1.7.1',
     packages=find_packages(exclude=['test']),
     data_files=[
         (share_path, ['package.xml']),

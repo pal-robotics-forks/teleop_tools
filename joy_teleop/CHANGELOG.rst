@@ -2,8 +2,8 @@
 Changelog for package joy_teleop
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.7.1 (2025-03-18)
+------------------
 * Merge branch 'tpe/add_negative_axis' into 'master'
   Add possibility of checking the negative value of the axis
   See merge request ros-overlays/teleop_tools!7
