@@ -2,8 +2,8 @@
 Changelog for package joy_teleop
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.7.2 (2025-03-24)
+------------------
 * Merge branch 'tpe/fix_warnings' into 'master'
   Fix flake8 warnings
   See merge request ros-overlays/teleop_tools!8
