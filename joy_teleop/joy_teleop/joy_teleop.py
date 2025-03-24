@@ -144,10 +144,12 @@ class JoyTeleopCommand:
                 # like (0, 10), but the length of the joystick buttons is only 1.  Ignore these.
                 pass
 
+
 class JoyTeleopTopicCommand(JoyTeleopCommand):
 
     def __init__(self, name: str, config: typing.Dict[str, typing.Any], node: Node) -> None:
-        super().__init__(name, config, 'deadman_buttons', 'deadman_axes', 'deadman_axes_negative')
+        super().__init__(name, config, 'deadman_buttons',
+                         'deadman_axes', 'deadman_axes_negative')
 
         self.name = name
 
@@ -202,7 +204,8 @@ class JoyTeleopTopicCommand(JoyTeleopCommand):
                                    reliability=rclpy.qos.QoSReliabilityPolicy.RELIABLE,
                                    durability=rclpy.qos.QoSDurabilityPolicy.VOLATILE)
 
-        self.pub = node.create_publisher(self.topic_type, config['topic_name'], qos)
+        self.pub = node.create_publisher(
+            self.topic_type, config['topic_name'], qos)
 
     def run(self, node: Node, joy_state: sensor_msgs.msg.Joy) -> None:
         # The logic for responding to this joystick press is:
@@ -396,17 +399,21 @@ class JoyTeleop(Node):
 
         for name, config in self.retrieve_config().items():
             if name in names:
-                raise JoyTeleopException("command '{}' was duplicated".format(name))
+                raise JoyTeleopException(
+                    "command '{}' was duplicated".format(name))
 
             try:
                 interface_group = config['type']
 
                 if interface_group == 'topic':
-                    self.commands.append(JoyTeleopTopicCommand(name, config, self))
+                    self.commands.append(
+                        JoyTeleopTopicCommand(name, config, self))
                 elif interface_group == 'service':
-                    self.commands.append(JoyTeleopServiceCommand(name, config, self))
+                    self.commands.append(
+                        JoyTeleopServiceCommand(name, config, self))
                 elif interface_group == 'action':
-                    self.commands.append(JoyTeleopActionCommand(name, config, self))
+                    self.commands.append(
+                        JoyTeleopActionCommand(name, config, self))
                 else:
                     raise JoyTeleopException("unknown type '{interface_group}' "
                                              "for command '{name}'".format_map(locals()))
