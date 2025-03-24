@@ -2,6 +2,14 @@
 Changelog for package joy_teleop
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'tpe/fix_warnings' into 'master'
+  Fix flake8 warnings
+  See merge request ros-overlays/teleop_tools!8
+* Fix flake8 warnings
+* Contributors: thomas.peyrucain, thomaspeyrucain
+
 1.7.1 (2025-03-18)
 ------------------
 * Merge branch 'tpe/add_negative_axis' into 'master'
